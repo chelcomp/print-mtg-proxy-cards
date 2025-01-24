@@ -1,0 +1,54 @@
+=== Artifact ===
+1 Boros Signet
+1 Esfera Brilhante
+1 Fellwar Stone
+1 Gruul Signet
+1 Pinça Craniana
+1 Selesnya Signet
+1 Sol Ring
+
+=== Creature ===
+1 Elfos de Fyndhorn
+
+=== Enchantment ===
+1 Grimório Silvestre
+
+=== Instant ===
+1 Beast Within
+1 Clever Concealment
+1 Convocar os Gibões de Cobre
+1 Dwarven Song
+1 Grand Crescendo
+1 Heaven's Gate
+1 Mutação de Artefato
+1 Mutação de Aura
+1 Presente Generoso
+1 Scapegoat
+1 Sylvan Paradise
+
+=== Land ===
+1 Alameda da Abundância
+1 Exotic Orchard
+1 Jardim dos Cumes
+1 Kessig Wolf Run
+1 Spectator Seating
+
+=== Legendary ===
+1 Cadira, Convocadora dos Pequenos
+
+=== Sorcery ===
+1 Blasphemous Act
+1 Busca Longínqua
+1 Descenso dos Dragões
+1 Rampant Growth
+1 Three Visits
+
+=== Token ===
+1 Beast
+1 Citizen
+1 Dragon
+1 Elephant
+1 Human Soldier
+1 Rabbit
+2 Saproling
+

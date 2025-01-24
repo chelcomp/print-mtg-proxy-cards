@@ -1,32 +1,31 @@
-Scapegoat
-Fyndhorn Elves
-Cadira, Caller of the Small
-Farseek
-Rampant Growth
-Three Visits
-Descent of the Dragons
-Blasphemous Act
-Dwarven Song
-Heaven's Gate
-Sylvan Paradise
-Artifact Mutation
-Aura Mutation
-Grand Crescendo
-Beast Within
-Call the Coppercoats
-Generous Gift
-Clever Concealment
-Skullclamp
-Sol Ring
-Boros Signet
-Fellwar Stone
-Gruul Signet
-Selesnya Signet
-Glistening Sphere
-Sylvan Library
-Bountiful Promenade
-Exotic Orchard
-Kessig Wolf Run
-Spectator Seating
-Spire Garden
+=== Deck ===
+20 Plains
+2 Cavalry Drillmaster
+1 Take Vengeance
+2 Gideon's Reproach
+1 Seal Away
+3 Luminous Bonds
+1 Resplendent Angel
+1 Danitha Capashen, Paragon
+1 Squire's Devotion
+1 History of Benalia
+2 Invoke the Divine
+4 Ixalan's Binding
+3 Settle the Wreckage
+3 Gallant Cavalry
+2 Valiant Knight
+2 Shalai, Voice of Plenty
+1 Serra Angel
+3 Angel of the Dawn
+1 Herald of Faith
+1 Knightly Valor
+1 Lyra Dawnbringer
+1 Evra, Halcyon Witness
+1 Serra's Guardian
+2 Light of the Legion
+
+# Comment line
+== Comment line
+#-- Block Comment Anything below will be ignored
+If no cad quantity informed, one will be used as defaul
 
