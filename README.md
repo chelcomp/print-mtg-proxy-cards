@@ -91,6 +91,8 @@ python start.py --page-size A4 --download-tokens
 ```
 
 This command will generate a printable PDF with token images and save it in the `output/` directory.
+![Image of magic_cards_collage_page_1](https://github.com/chelcomp/print-mtg-cards-deck/blob/master/example/magic_cards_collage_page_1.png)
+![Image of magic_cards_collage_page_2](https://github.com/chelcomp/print-mtg-cards-deck/blob/master/example/magic_cards_collage_page_2.png)
 
 ## Troubleshooting
 
