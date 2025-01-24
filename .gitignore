@@ -1,0 +1,59 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+# Virtual environments
+.venv/Lib
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Distribution/Packaging
+.Python
+build/
+dist/
+*.egg-info/
+
+# IDE or editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.orig
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test and coverage reports
+.coverage
+*.cover
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# Pytest cache
+.pytest_cache/
+
+# Mypy cache
+.mypy_cache/
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Other common files to ignore
+*.env
+*.config
+*.sqlite3
+
+#solution
+magic_cards
