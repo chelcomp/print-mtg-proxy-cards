@@ -1,0 +1,85 @@
+Flumph
+Niv-Mizzet, Parun
+Niv-Mizzet, the Firemind
+Ivory Tower
+Kiyomaro, First to Stand
+Master the Way
+Laboratory Maniac
+Silent Arbiter
+Wheel of Misfortune
+9 mtg back
+
+#--
+=== Deck where my hug at===
+# https://moxfield.com/decks/YmQ8kRHYQkGujZdeEhiynw #
+1 Adarkar Wastes
+1 Alandra, Sky Dreamer
+1 Ancient Den
+1 Arcane Denial
+1 Azorius Chancery
+1 Comeuppance
+1 Dakra Mystic
+
+
+#--
+1 Emberwilde Captain
+1 Exotic Orchard
+1 Fellwar Stone
+1 Great Furnace
+1 Horizon of Progress
+1 Interdict
+1 Island Sanctuary
+1 Kami of the Crescent Moon
+1 Lore Broker
+1 Mikokoro, Center of the Sea
+1 Minn, Wily Illusionist
+1 Mirrorweave
+1 Misleading Signpost
+1 Otherworld Atlas
+1 Reins of Power
+1 Reverse the Polarity
+1 Runeflare Trap
+1 Smuggler's Share
+1 Sokrates, Athenian Teacher
+1 Sol Ring
+1 Sonic Screwdriver
+1 Swans of Bryn Argoll
+1 Sword of War and Peace
+1 Talisman of Conviction
+1 Talisman of Creativity
+1 Talisman of Progress
+1 Temple Bell
+1 Terrain Generator
+1 The Council of Four
+1 Thought Vessel
+1 Trouble in Pairs
+1 Unquenchable Fury
+1 Wrong Turn
+
+#SIDEBOARD:
+1 Backfire
+1 Betrayal
+1 Black Vise
+1 Call to Heel
+1 Champions of Minas Tirith
+1 Farsight Mask
+1 Font of Mythos
+1 Intellectual Offering
+1 Jace Beleren
+1 Knowledge Is Power
+1 Michiko Konda, Truth Seeker
+1 Mocking Doppelganger
+1 Oblation
+1 Perch Protection
+1 Perplexing Test
+1 Struggle for Project Purity
+1 Tenuous Truce
+1 Tidal Barracuda
+1 Victory Chimes
+1 Viseling
+1 Walking Archive
+1 Windfall
+1 Your Temple Is Under Attack
+
+1 Ryan Sinclair
+1 The Second Doctor

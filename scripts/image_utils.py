@@ -5,17 +5,41 @@ import numpy as np
 from PIL import Image, ImageDraw
 from basicsr.archs.rrdbnet_arch import RRDBNet
 from realesrgan import RealESRGANer
-from scripts.constants import CACHE_DIR, SCALE
+from scripts.constants import BLEED, CACHE_DIR, SCALE
 from scripts.card_class import Card
    
 def __get_card_image_with_fixes__(image_path) -> Image:
     print("-INFO: Fixing card RGB and borders")    
     image = get_rgb_image(image_path)
-    image = __fix_card_borders__(image)
+    image = fix_card_borders(image)
     return image
 
 
-def __fix_card_borders__(image: Image, border_width: int = 15)-> Image:
+def bleed_card_borders(image: Image, bleed: int = BLEED)-> Image:
+    ##### thrief border color
+    # Define the coordinates of the region to extract (x1, y1, x2, y2)
+    # Example: top-left (x1, y1) and bottom-right (x2, y2)
+    region = (50, 0, 60, 5)  # Modify as per your desired region
+
+    # Crop the image to the region
+    cropped_image = image.crop(region)
+
+    # Convert the cropped image to RGB (in case it's in another format)
+    cropped_image = cropped_image.convert("RGB")
+
+    # Get the pixel data from the cropped image
+    pixels = list(cropped_image.getdata())
+
+    # Calculate the average color of the region
+    avg_color = tuple(sum(col) // len(col) for col in zip(*pixels))    
+    
+    # Create a drawing context
+    image_with_bleed = Image.new("RGB", (image.width + 2 * bleed, image.height + 2 * bleed), avg_color)
+    image_with_bleed.paste(image, (bleed, bleed))
+    return image_with_bleed
+
+
+def fix_card_borders(image: Image, border_width: int = 20)-> Image:
     ##### thrief border color
     # Define the coordinates of the region to extract (x1, y1, x2, y2)
     # Example: top-left (x1, y1) and bottom-right (x2, y2)

@@ -1,0 +1,16 @@
+{
+    "python.envFile": "${workspaceFolder}/.env",
+    "version": "0.2.0",
+    "python.pythonPath": "./venv/bin/python",
+    "configurations": [                
+        {
+            "name": "Python: Run MTG Collage Generator",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "start.py",
+            //"program": "${file}",
+            "console": "integratedTerminal",
+            "args": [  "--page-size=A3"]            
+        }
+    ]    
+}

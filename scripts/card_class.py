@@ -1,13 +1,18 @@
 from typing import List, Tuple
 
+from scripts.string_utils import sanitize_filename
+
 class Card:
     def __init__(self, name: str, 
-                 lang: str, 
-                 image_url: str, 
-                 card_type: str, 
+                 lang: str = None, 
+                 image_url: str = None, 
+                 card_type: str = None, 
                  border_color: Tuple[int,int,int] = (0, 0, 0), 
                  image_quality: str = "unknown",
-                 image_quality_score: int = -1):
+                 image_quality_score: int = -1,
+                 version = None,
+                 quantity = 1,
+                 scryfall_url = None):
         self.name = name
         self.lang = lang
         self.image_url = image_url
@@ -15,6 +20,11 @@ class Card:
         self.border_color = border_color
         self.image_quality_score = image_quality_score
         self.image_quality = image_quality
+        self.version = version
+        self.quantity = quantity
+        self.version = version
+        self.scryfall_url = scryfall_url
+        self.sanitized_name = sanitize_filename(name.lower())
 
 
 

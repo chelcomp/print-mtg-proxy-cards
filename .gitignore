@@ -17,7 +17,7 @@ dist/
 *.egg-info/
 
 # IDE or editor-specific files
-.vscode/
+#.vscode/
 .idea/
 *.swp
 *.swo

@@ -1,0 +1,8 @@
+#DECK: magic_cards\Acord_Tokens\printed_card_list_with_tokens.txt
+1 Ape [tm3c] #Token
+2 Bird [totj] #Token
+6 Drake [tfdn] #Token
+6 Spirit [tbro] #Token
+1 Wicked // Cursed [twoe] #Token
+2 Foretell [tkhm] #Card
+18 mtg back [None] #Token

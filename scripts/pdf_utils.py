@@ -2,8 +2,7 @@ from typing import List
 from reportlab.lib.pagesizes import A4, A3
 from reportlab.pdfgen import canvas
 from PIL import Image
-import os
-from scripts.constants import OUTPUT_DIR, CARD_LIST_OUTPUT
+from scripts.constants import MARGIN_DPI, SCALE
 from scripts.pagesizeenum_class import PageSizeEnum
 
 def convert_images_to_pdf(images: List[str], output_pdf: str, page_size: PageSizeEnum):
@@ -30,6 +29,9 @@ def convert_images_to_pdf(images: List[str], output_pdf: str, page_size: PageSiz
     elif page_size == PageSizeEnum.A3:
         page_width, page_height = A3_LANDSCAPE
 
+    page_width *= SCALE
+    page_height *= SCALE
+    
     # Create a PDF canvas
     c = canvas.Canvas(output_pdf, pagesize=(page_width, page_height))
 
@@ -44,7 +46,7 @@ def convert_images_to_pdf(images: List[str], output_pdf: str, page_size: PageSiz
             scale_width = page_width / img_width 
             scale_height = page_height / img_height 
             scale = min(scale_width, scale_height)
-
+            
             # New dimensions for the image
             new_width = img_width * scale
             new_height = img_height * scale
@@ -54,7 +56,8 @@ def convert_images_to_pdf(images: List[str], output_pdf: str, page_size: PageSiz
             y_offset = (page_height - new_height) / 2
 
             # Draw the image on the canvas
-            c.drawImage(image_path, x_offset, y_offset, width=new_width, height=new_height)
+            c.drawImage(image_path, x_offset, y_offset, width=new_width, height=new_height, preserveAspectRatio=True)
+            #c.drawImage(image_path, x_offset, y_offset, page_width - x_offset, page_height - x_offset, preserveAspectRatio=True)
             c.showPage()  # Add a new page
 
         except Exception as e:
